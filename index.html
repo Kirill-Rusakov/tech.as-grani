@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="логотип">
+                </div>
+                <div class="menu">
+                    <div class="menu__top">
+                        <a href="https://as-grani.ru/catalog/" class="menu__catalog">
+                            <div>
+                                <span></span><span></span><span></span><span></span>
+                            </div>
+                            <p>Каталог</p>
+                        </a>
+                        <div class="menu__search">
+                            <input type="text" placeholder="Поиск товаров и услуг">
+                        </div>
+                        <ul class="menu__icons">
+                            <li class="menu__icon"><a href="#!">
+                                <img src="./img/icons/account.svg" alt="иконка меню">
+                                <span>Войти</span>
+                            </a></li>
+                            <li class="menu__icon"><a href="#!">
+                                <img src="./img/icons/contrust.svg" alt="иконка меню">
+                                <span>Сравнение</span>
+                            </a></li>
+                            <li class="menu__icon"><a href="#!">
+                                <img src="./img/icons/orders.svg" alt="иконка меню">
+                                <span>Заказы</span>
+                            </a></li>
+                            <li class="menu__icon"><a href="#!">
+                                <img src="./img/icons/cart.svg" alt="иконка меню">
+                                <span>Корзина</span>
+                            </a></li>
+                            <li class="menu__icon"><a href="#!">
+                                <img src="./img/icons/likes.svg" alt="иконка меню">
+                                <span>Избранное</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="menu__bottom">
+                        <ul class="nav">
+                            <li class="nav__image"><a href="#!"><img src="./img/icons/discount.svg" alt=""><span>Акции</span></a></li>
+                            <li class="nav__image"><a href="#works"><img src="./img/icons/works.svg" alt=""><span>Наши работы</span></a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                            <li><a href="#!">Статьи</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="https://as-grani.ru/company/">О нас</a></li>
+                            <!-- <li><a href="#!">Для бизнеса</a></li> -->
+                        </ul>
+                        <div class="contacts__list">
+                            <a href="tel:+79232444676" class="contacts__item">
+                                <img src="./img/icons/call.svg" alt="">
+                                <span>8(923) 244-46-76</span>
+                            </a>
+                            <a href="#!" class="contacts__item">
+                                <img src="./img/icons/direct.svg" alt="">
+                                <span>Новосибирск</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="banner">
+                <div class="banner__main swiper">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="./img/banner-01.jpg" alt="баннер">
+                        <img class="swiper-slide" src="./img/banner-02.jpg" alt="баннер">
+                        <img class="swiper-slide" src="./img/banner-03.jpg" alt="баннер">
+                    </div>
+                </div>
+                <!-- <div class="banner__mini">
+                    <div class="banner__mini-item">
+                        <h2>Товары от производителя</h2>
+                        <div>
+                            <img src="./img/banner-mini-01.png" alt="">
+                            <button type="button">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="banner__mini-item">
+                        <h2>Реализуем любой дизайн изделия</h2>
+                        <div>
+                            <img src="./img/banner-mini-02.png" alt="">
+                            <button type="button">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="banner__mini-item">
+                        <h2>Доставка и установка</h2>
+                        <div>
+                            <img src="./img/banner-mini-03.png" alt="">
+                            <button type="button">Подробнее</button>
+                        </div>
+                    </div>
+                    <div class="banner__mini-item">
+                        <h2>На всех кладбищах Новосибирска</h2>
+                        <div>
+                            <img src="./img/banner-mini-04.png" alt="">
+                            <button type="button">Подробнее</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title-1">Каталог товаров и услуг</h2>
+            <div class="catalog__buttons">
+                <button type="button" class="catalog__button">памятники</button>
+                <button type="button" class="catalog__button">мемориальные комплексы</button>
+                <button type="button" class="catalog__button">гранит</button>
+                <button type="button" class="catalog__button">мрамор</button>
+            </div>
+            <div class="catalog__blocks">
+                <a href="#!" class="catalog__block"><img src="./img/block-01.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-02.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-03.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-04.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-05.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-06.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-07.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-08.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-09.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-10.png" alt=""></a>
+                <a href="#!" class="catalog__block"><img src="./img/block-11.png" alt=""></a>
+            </div>
+            <div class="catalog__buttons">
+                <button type="button" class="catalog__button">оформление</button>
+            </div>
+            <div class="catalog__blocks">
+                <div class="catalog__block"><img src="./img/block-001.png" alt=""></div>
+                <div class="catalog__block"><img src="./img/block-002.png" alt=""></div>
+                <div class="catalog__block"><img src="./img/block-003.png" alt=""></div>
+                <div class="catalog__block"><img src="./img/block-004.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="blocks">
+        <div class="container">
+            <div class="blocks__wrapper">
+                <div class="blocks__item"><img src="./img/bl-01.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-02.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-03.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-04.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-05.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="blocks">
+        <div class="container">
+            <h2 class="title-1">Самые популярные памятники</h2>
+            <div class="blocks__wrapper">
+                <div class="blocks__item"><img src="./img/bl-0.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-0.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-0.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-0.png" alt=""></div>
+                <div class="blocks__item"><img src="./img/bl-0.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="blocks">
+        <div class="container">
+            <h2 class="title-1">Как оформить заказ</h2>
+            <div class="blocks__wrapper blocks__wrapper--spec">
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-001.png" alt=""></div>
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-002.png" alt=""></div>
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-003.png" alt=""></div>
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-004.png" alt=""></div>
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-005.png" alt=""></div>
+                <div class="blocks__item blocks__item--number"><img src="./img/bl-006.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="blocks" id="works">
+        <div class="container">
+            <h2 class="title-1">Наши работы</h2>
+            <div class="blocks__wrapper blocks__wrapper--spec2">
+                <div class="blocks__item blocks__item--multi"><img src="./img/block-multi-01.png" alt=""></div>
+                <div class="blocks__item blocks__item--multi blocks__item--multi2">
+                    <div class=""><img src="./img/block-multi-02.png" alt=""></div>
+                    <div class=""><img src="./img/block-multi-03.png" alt=""></div>
+                </div>
+                <div class="blocks__item blocks__item--multi"><img src="./img/block-multi-04.png" alt=""></div>
+                <div class="blocks__item blocks__item--multi blocks__item--multi2 blocks__item--multi3">
+                    <div class=""><img src="./img/block-multi-05.png" alt=""></div>
+                    <div class=""><img src="./img/block-multi-06.png" alt=""></div>
+                </div>
+            </div>
+            <div class="blocks__button">
+                <button type="button">Ещё примеры работ</button>
+            </div>
+        </div>
+    </section>
+    <section class="blocks" id="reviews">
+        <div class="container">
+            <h2 class="title-1">Отзывы</h2>
+            <div class="blocks__wrapper blocks__wrapper--spec3">
+                <div class="blocks__item block__item--rev">
+                    <img src="./img/reviews-01.png" alt="">
+                    <h3>Лариса, г. Новосибирск</h3>
+                    <div>
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                    </div>
+                    <p>
+                        <span>Долгое время искал надежную компанию, и наконец-то нашел. Памятник получился великолепным, всё сделано очень качественно.</span>
+                        <span>Профессионалы своего дела! Всё было выполнено точно по заказу, памятник получился именно таким, как хотелось. Благодарен за внимательное отношение.</span>
+                    </p>
+                </div>
+                <div class="blocks__item block__item--rev">
+                    <img src="./img/reviews-02.png" alt="">
+                    <h3>Михаил, г. Омск</h3>
+                    <div>
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                    </div>
+                    <p>
+                        <span>Консультировали и держали в курсе всего периода от заказа до установки. Всё сделали в срок.</span>
+                        <span>Спасибо за качественно предоставленные услуги.</span>
+                    </p>
+                </div>
+                <div class="blocks__item block__item--rev">
+                    <img src="./img/reviews-03.png" alt="">
+                    <h3>Оксана, г. Кемерово</h3>
+                    <div>
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                        <img src="./img/icons/star.svg" alt="">
+                    </div>
+                    <p>
+                        <span>Прекрасная работа! Памятник выполнен из высококачественного гранита, всё получилось очень красиво и достойно.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="blocks__button">
+                <button type="button">Все отзывы</button>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <form action="" class="contacts__form">
+                    <h2 class="title-1">Остались вопросы?</h2>
+                    <p>Оставьте заявку и менеджер свяжется с вами через 5 минут, ответит на интересующие вас вопросы и поможет с оформлением заказа</p>
+                    <div>
+                        <input type="text" name="user-name" placeholder="Ваше имя">
+                        <input type="tel" name="phone-number" placeholder="Ваш телефон">
+                    </div>
+                    <button type="button">Перезвоните мне</button>
+                    <span>Не хотите ждать?</span>
+                    <button type="button">Напишите в WhatsApp</button>
+                </form>
+                <div class="contacts__buttons">
+                    <button type="button" class="contacts__button">Доставка</button>
+                    <button type="button" class="contacts__button">Предложения по акции</button>
+                    <button type="button" class="contacts__button">Гарантии и безопасность</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
